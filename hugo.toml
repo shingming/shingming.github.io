@@ -1,0 +1,37 @@
+baseURL = 'https://shingming.github.io/'
+languageCode = 'en-us'
+title = 'Shing Ming Studio - github.io'
+
+theme = "PaperMod"
+
+[params]
+  title = "Shing Ming Studio - github.io"
+  description = "With enthusiasm about Computer Science and Art."
+  [params.contact]
+    email = 'shingming.cs@icloud.com'
+
+[author]
+  name = "Shing Ming, Wong"
+  homepage = "https://shingming.github.io/"
+
+[menu]
+
+[[menu.main]]
+  name = "Docs"
+  weight = 1
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 3
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Search"
+  weight = 4
+  url  = "posts/"
