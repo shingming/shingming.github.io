@@ -1,11 +1,11 @@
 baseURL = 'https://shingming.github.io/'
 languageCode = 'en-us'
-title = 'Shing Ming Studio - github.io'
+title = 'Shing Ming Studio Blog'
 
 theme = "PaperMod"
 
 [params]
-  title = "Shing Ming Studio - github.io"
+  title = "Shing Ming Studio Blog"
   description = "With enthusiasm about Computer Science and Art."
   [params.contact]
     email = 'shingming.cs@icloud.com'
