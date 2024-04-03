@@ -1,7 +1,9 @@
 +++
 title = 'First Post'
 date = 2024-04-03T17:36:08+08:00
-draft = true
+draft = false
+ShowToc = false
+ShowReadingTime = true
 +++
 
 # Blog 測試
