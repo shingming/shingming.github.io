@@ -1,6 +1,6 @@
 baseURL = 'https://shingming.github.io/'
 languageCode = 'en-us'
-title = 'Tim Blog'
+title = "Tim's Blog"
 paginate = 5
 theme = "PaperMod"
 
@@ -19,7 +19,7 @@ mainsections = ["posts"]
 
 [params]
   env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
-  title = "Tim Blog"
+  title = "Tim's Blog"
   description = "With enthusiasm about Computer Science and Art."
   # disableThemeToggle = true
   ShowShareButtons = true
