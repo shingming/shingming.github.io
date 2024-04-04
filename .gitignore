@@ -11,3 +11,10 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# gitignore from the .idea folder?
+# https://stackoverflow.com/a/39519371/10467387
+.idea/*
+
+# OS or Editor folders
+.DS_Store

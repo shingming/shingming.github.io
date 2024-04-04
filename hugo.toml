@@ -1,37 +1,83 @@
 baseURL = 'https://shingming.github.io/'
 languageCode = 'en-us'
-title = 'Shing Ming Studio Blog'
-
+title = 'Tim Blog'
+paginate = 5
 theme = "PaperMod"
 
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ["posts"]
+
+[minify]
+  disableXML = true
+  # minifyOutput = true
+
 [params]
-  title = "Shing Ming Studio Blog"
+  env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+  title = "Tim Blog"
   description = "With enthusiasm about Computer Science and Art."
+  # disableThemeToggle = true
+  ShowShareButtons = true
+  ShowReadingTime = true
+  # disableSpecial1stPost = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
+  # comments = false
   [params.contact]
     email = 'shingming.cs@icloud.com'
 
+  [params.homeInfoParams]
+    Title = "Tim Wong"
+    Content = "👋 Welcome to my blog. Just want to take a place on the Internet to mention my life, software development, old lessons, and new stuff I discovered and learned."
+
+  [[params.socialIcons]]
+    name = "github"
+    title = "My Github"
+    url = "https://github.com/shingming"
+  [[params.socialIcons]]
+    name = "stackoverflow"
+    title = "Stackoverflow"
+    url = "https://stackoverflow.com/users/10467387/tim"
+  [[params.socialIcons]]
+    name = "linkedin"
+    title = "My Linkedin"
+    url = "https://www.linkedin.com/in/shingming/"
+  [[params.socialIcons]]
+    name = "x"
+    title = "My X/Twitter"
+    url = "https://twitter.com/Shimgming"
+
 [author]
-  name = "Shing Ming, Wong"
+  name = "Shing Ming (Tim) Wong"
   homepage = "https://shingming.github.io/"
 
 [menu]
-
 [[menu.main]]
-  name = "Docs"
+  name = "Archive"
   weight = 1
-  url  = "posts/"
+  url  = "posts/archives/"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Search"
   weight = 2
-  url  = "posts/"
+  url  = "posts/search/"
 
 [[menu.main]]
   name = "Tags"
   weight = 3
-  url  = "posts/"
+  url  = "tags/"
 
 [[menu.main]]
-  name = "Search"
-  weight = 4
-  url  = "posts/"
+  name = "My Work"
+  url = "https://shingming.co/"

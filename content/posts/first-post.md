@@ -1,31 +1,20 @@
 +++
-title = 'First Post'
-date = 2024-04-03T17:36:08+08:00
+title = 'Hi there - this is Tim'
+summary = 'Who am I'
+date = 2024-04-04T16:30:00+08:00
+series = ["Other"]
+weight = 1
+aliases = ["/first-post"]
+tags = ["Other"]
+author = ["Tim"]
 draft = false
 ShowToc = false
 ShowReadingTime = true
 +++
 
-# Blog 測試
+# Who am I
+Just a software developer who loves to invent software that makes our daily lives simpler, interesting, and easier.
 
-## h2
+This blog will mention my life, software development, old lessons, and new stuff I discovered and learned.
 
-1. 一一一
-2. 二二二
-3. 三三三
-
-### h3
-
-* 123
-* 456
-* 789
-
-#### h4
-
-**粗體**
-_斜體_
-~~刪除線~~
-
-##### h5
-
-[超連結](https://www.google.com)
+Cheers.
