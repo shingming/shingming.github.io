@@ -13,7 +13,7 @@ ShowReadingTime = true
 +++
 
 # Hi there - this is Tim
-Just a software developer who loves to invent software that makes our daily lives simpler, interesting, and easier.
+A software developer who loves to invent software that makes our daily lives simpler, interesting, and easier.
 
 This blog will mention my life, software development, old lessons, and new stuff I discovered and learned.
 
