@@ -6,14 +6,12 @@ date = 2024-04-07T02:10:00+08:00
 series = [".NET", "Security"]
 weight = 1
 aliases = ["/protect-dotnet-code-1"]
-tags = [".NET", "Security", "Reverse Engineering"]
+tags = [".NET", "Security", "Reverse Engineering", "Obfuscation"]
 author = ["Tim"]
 draft = false
-ShowToc = false
+ShowToc = true
 ShowReadingTime = true
 +++
-
-###### tags: Security, .NET, Reverse Engineering
 
 ## Background
 As software developers, we are responsible for safeguarding the application's security in all aspects, from design to deployment. One aspect of the application's security that you should care about is the building process, especially when building .NET applications (Will explain why in the following). Adopting safe building strategies such as code obfuscation can help to secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
@@ -28,7 +26,7 @@ One technique to defend reverse engineering is code obfuscation. It creates or m
 
 Referring to the comprehensive survey from obfuscators.io, [^3] many solutions that provide obfuscation protection are available today. Some are free and open-source, and some are paid and commercial (from $199 - 4300).
 ![the_solution_comparison_of_the_obfuscation_protection.png](/images/protect-dotnet-code-1/the_solution_comparison_of_the_obfuscation_protection.png "The Solution Comparison of the Obfuscation Protection")
-*<center>The Solution Comparison of the Obfuscation Protection [^3]</center>*
+*The Solution Comparison of the Obfuscation Protection [^3]*
 
 In the next post, I will introduce the free and open-source solution of obfuscation protection I use to protect the application made by the .NET MAUI framework.
 
