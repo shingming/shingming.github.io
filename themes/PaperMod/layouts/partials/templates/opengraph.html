@@ -1,5 +1,5 @@
 <meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- if .Params.cover.image -}}
@@ -19,7 +19,7 @@
 {{- with $featured -}}
 <meta property="og:image" content="{{ $featured.Permalink }}"/>
 {{- else -}}
-{{- with site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
+{{- with .Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
 {{- end -}}
 {{- end -}}
 {{- end }}
@@ -33,14 +33,14 @@
 
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
-{{- with site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+{{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 {{- with .Params.videos }}{{- range . }}
 <meta property="og:video" content="{{ . | absURL }}" />
 {{ end }}{{ end }}
 
 {{- /* If it is part of a series, link to related articles */}}
 {{- $permalink := .Permalink }}
-{{- $siteSeries := site.Taxonomies.series }}
+{{- $siteSeries := .Site.Taxonomies.series }}
 {{- if $siteSeries }}
 {{ with .Params.series }}{{- range $name := . }}
   {{- $series := index $siteSeries ($name | urlize) }}
@@ -50,17 +50,10 @@
 {{ end }}{{ end }}
 {{- end }}
 
-{{- /* Deprecate site.Social.facebook_admin in favor of site.Params.social.facebook_admin */}}
+{{- /* Use site.Params.social.facebook_admin */}}
 {{- $facebookAdmin := "" }}
-{{- with site.Params.social }}
-  {{- if reflect.IsMap . }}
-    {{- $facebookAdmin = .facebook_admin }}
-  {{- end }}
-{{- else }}
-  {{- with site.Social.facebook_admin }}
-    {{- $facebookAdmin = . }}
-    {{- warnf "The social key in site configuration is deprecated. Use params.social.facebook_admin instead." }}
-  {{- end }}
+{{- with .Site.Params.social }}
+  {{- $facebookAdmin = .facebook_admin }}
 {{- end }}
 
 {{- /* Facebook Page Admin ID for Domain Insights */}}

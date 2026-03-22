@@ -4,6 +4,10 @@ title = "Tim's Blog"
 paginate = 5
 theme = "PaperMod"
 
+[social]
+  facebook_admin = ""
+  twitter = ""
+
 enableInlineShortcodes = true
 enableRobotsTXT = true
 buildDrafts = false
@@ -12,6 +16,8 @@ buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
 mainsections = ["posts"]
+
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [minify]
   disableXML = true
@@ -40,6 +46,13 @@ mainsections = ["posts"]
   [params.homeInfoParams]
     Title = "Tim Wong"
     Content = "👋 Welcome to my blog. Just want to take a place on the Internet to mention my life, software development, old lessons, and new stuff I discovered and learned."
+
+  [params.social]
+
+  [params.author]
+    name = "Shing Ming (Tim) Wong"
+    email = "shingming.cs@icloud.com"
+    homepage = "https://shingming.github.io/"
 
   [[params.socialIcons]]
     name = "github"

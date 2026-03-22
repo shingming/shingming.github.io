@@ -1,9 +1,11 @@
 {{- if or .Params.author site.Params.author }}
 {{- $author := (.Params.author | default site.Params.author) }}
 {{- $author_type := (printf "%T" $author) }}
-{{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}")) }}
-{{- (delimit $author ", " ) }}
+{{- if or (eq $author_type "[]string") (eq $author_type "[]interface {}") }}
+  {{- (delimit $author ", " ) -}}
+{{- else if strings.Contains $author_type "map" }}
+  {{- with $author.name }}{{ . }}{{ else }}{{- if $author.email }}{{ . }}{{ else }}{{ $author }}{{ end }}{{ end }}
 {{- else }}
-{{- $author }}
+  {{- $author -}}
 {{- end }}
 {{- end -}}
