@@ -35,20 +35,19 @@
     -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
 -   Table of Content Generation (newer implementation).
 -   Archive of posts.
--   Social Icons (home-info and profile-mode).
+-   Social Icons (home-info and profile-mode)
 -   Social-Media Share buttons on posts.
 -   Menu location indicator.
--   Multilingual support. (with language selector).
--   Taxonomies.
+-   Multilingual support. (with language selector)
+-   Taxonomies
 -   Cover image for each post (with Responsive image support).
 -   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
 -   SEO Friendly.
 -   Multiple Author support.
 -   Search Page with Fuse.js
 -   Other Posts suggestion below a post
--   Breadcrumb Navigation.
--   Code Block Copy buttons.
--   Hugo's Chroma syntax highlighter.
+-   Breadcrumb Navigation
+-   Code Block Copy buttons
 -   No webpack, nodejs and other dependencies are required to edit the theme.
 
 Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
@@ -103,4 +102,4 @@ Release ChangeLog has info about stuff added: **[Releases](https://github.com/ad
 
 ## Stargazers over time 📈
 
-[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg?background=%23ffffff00&axis=%23858585&line=%236b63ff)](https://starchart.cc/adityatelange/hugo-PaperMod)
+<kbd>[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg?variant=adaptive)](https://starchart.cc/adityatelange/hugo-PaperMod)</kbd>
