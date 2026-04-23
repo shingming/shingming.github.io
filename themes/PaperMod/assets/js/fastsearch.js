@@ -48,7 +48,8 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "/index.json");
+    const indexJsonUrl = window.searchIndexUrl || "/index.json";
+    xhr.open('GET', indexJsonUrl);
     xhr.send();
 }
 
