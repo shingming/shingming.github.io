@@ -33,6 +33,12 @@ never visited the heart of Japan before.
 ## City
 
 | ![city-day-1.jpeg](/images/tokyo-marathon-2026/city-day-1.jpeg)    | ![city-day-2.jpeg](/images/tokyo-marathon-2026/city-day-2.jpeg)     |
-|--------------------------------------------------------------------|---------------------------------------------------------------------|
+| ------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| ![city-day-3.jpeg](/images/tokyo-marathon-2026/city-day-3.jpeg)    | ![city-day-4.jpeg](/images/tokyo-marathon-2026/city-day-4.jpeg)     |
 | ![city-night-1.png](/images/tokyo-marathon-2026/city-night-1.jpeg) | ![city-night-2.jpeg](/images/tokyo-marathon-2026/city-night-2.jpeg) |
-| ![JPX-1.jpeg](/images/tokyo-marathon-2026/JPX-1.jpeg)              | ![JPX-2.png](/images/tokyo-marathon-2026/JPX-2.jpeg)                |
+
+## Visit
+
+| ![visit-1-jpx.jpeg](/images/tokyo-marathon-2026/visit-1-jpx.jpeg)         | ![visit-2-jpx.jpeg](/images/tokyo-marathon-2026/visit-2-jpx.jpeg)          |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| ![visit-3-teamlab.jpeg](/images/tokyo-marathon-2026/visit-3-teamlab.jpeg) | ![visit-4-teamlab.jpeg](/images/tokyo-marathon-2026/visit-4-teamlab.jpeg) |
