@@ -82,13 +82,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url  = "posts/archives/"
 
 [[menu.main]]
-  name = "Search"
-  weight = 2
-  url  = "posts/search/"
-
-[[menu.main]]
   name = "Tags"
-  weight = 3
+  weight = 2
   url  = "tags/"
 
 [[menu.main]]
